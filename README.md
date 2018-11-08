@@ -5,9 +5,9 @@ Dockerfile for Jupyter Lab
 - jupyterlab
 
 #  Languages
-- python 3.6.2
-- scala 2.11.1
-- java 1.8.0_121
+- python 
+- scala 
+- java 
 - kotlin
 - groovy
 - clojure
@@ -54,6 +54,6 @@ The volume mapping makes sure that we do not loose any jupyter workbooks.
 		container_name: data-science
 		restart: always
 		ports:
-		  - 8004:8004
+		  - 8004:8888
 		volumes:
-		  - /srv/data-science:/notebooks
+		  - /srv/data-science:/home/beakerx
