@@ -1,4 +1,4 @@
-# data-science
+# Data-Science
 Dockerfile for Jupyter Lab (with BeakerX) and the most important Data Science Libraries 
 
 ##  GUI
