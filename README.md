@@ -36,6 +36,7 @@ Dockerfile for Jupyter Lab
 - SciKit-Learn
 - Keras
 - TensorFlow
+- Shogun
 
 # Natural Language Processing.
 - nltk
