@@ -17,9 +17,8 @@ Dockerfile for Jupyter Lab
 - javascript
 
 # Library Managers
-- miniconda
+- anaconda
 - pip
-- coursier
 - maven
 
 # Core Python Libraries.
