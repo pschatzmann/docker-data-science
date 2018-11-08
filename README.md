@@ -1,10 +1,10 @@
 # data-science
 Dockerfile for Jupyter Lab
 
-#  GUI
+##  GUI
 - jupyterlab
 
-#  Languages
+##  Languages
 - python 
 - scala 
 - java 
@@ -16,33 +16,33 @@ Dockerfile for Jupyter Lab
 - SQL
 - javascript
 
-# Library Managers
+## Library Managers
 - anaconda
 - pip
 - maven
 
-# Core Python Libraries.
+## Core Python Libraries.
 - NumPy
 - SciPy
 - statsmodels
 - Pandas
 - psycopg2
 
-# Visualization
+## Visualization
 - Matplotlib
 - Seaborn
 
-# Machine Learning.
+## Machine Learning.
 - SciKit-Learn
 - Keras
 - TensorFlow
 - Shogun
 
-# Natural Language Processing.
+## Natural Language Processing.
 - nltk
 - gensim
 
-# Data Sources
+## Data Sources
 - quandl
 
 
