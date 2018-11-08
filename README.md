@@ -42,18 +42,21 @@ Dockerfile for Jupyter Lab
 - nltk
 - gensim
 
+# Data Sources
+- quandl
+
 
 # Docker Compose
 We currently use the following docker-compose file.
 The volume mapping makes sure that we do not loose any jupyter workbooks.
 
-	version: '3.0'
+	version: '3.1'
 	services:
 	  data-science:
 		image: pschatzmann/data-science
 		container_name: data-science
 		restart: always
 		ports:
-		  - 8004:8888
+		  - 8000:8888
 		volumes:
 		  - /srv/data-science:/home/beakerx
