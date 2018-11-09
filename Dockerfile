@@ -6,3 +6,7 @@ RUN conda install -c pschatzmann shogun-jvm
 RUN	pip install calysto_prolog bash_kernel \
  && python3 -m calysto_prolog install \
  && python3 -m bash_kernel.install
+RUN jupyter labextension install @jupyterlab/git @jupyterlab/github @jupyterlab/statusbar @ijmbarr/jupyterlab_spellchecker
+RUN pip install --upgrade pip && pip install jupyterlab_github
+COPY plugin.jupyterlab-settings root/.jupyter/lab/user-settings/@jupyterlab/extensionmanager-extension/
+
