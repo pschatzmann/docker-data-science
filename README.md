@@ -4,6 +4,12 @@ Dockerfile for Jupyter Lab (with BeakerX) and the most important Data Science Li
 ##  GUI
 - jupyterlab
 
+## Extensions
+  - Extensions Manager (enabled) 
+  - Git
+  - Github
+  - Statusbar
+  
 ##  Languages
 - python 
 - scala 
