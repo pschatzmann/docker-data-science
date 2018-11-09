@@ -1,6 +1,7 @@
 FROM pschatzmann/beakerx-lab:1.2.0
 MAINTAINER phil schatzmann
 COPY plugin.jupyterlab-settings /root/.jupyter/lab/user-settings/@jupyterlab/extensionmanager-extension/
+RUN npm install --save-dev webpack
 RUN conda install -y -c conda-forge requests psycopg2 statsmodels cython pystan fbprophet tensorflow keras scipy scikit-learn matplotlib pillow seaborn nltk gensim quandl 
 RUN conda install -c pschatzmann shogun-jvm 
 RUN jupyter labextension install @jupyterlab/git @jupyterlab/github 
