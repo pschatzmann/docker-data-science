@@ -8,4 +8,4 @@ RUN jupyter labextension install @jupyterlab/git @jupyterlab/github
 RUN pip install --upgrade pip && pip install jupyterlab_github calysto_prolog bash_kernel
 RUN python3 -m calysto_prolog install \
  && python3 -m bash_kernel.install
-RUN jupyter lab build
+RUN jupyter labextension update --all
