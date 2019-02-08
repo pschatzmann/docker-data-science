@@ -1,4 +1,4 @@
-FROM pschatzmann/beakerx-lab:1.2.0
+FROM pschatzmann/beakerx-lab:1.3.0
 MAINTAINER phil schatzmann
 COPY plugin.jupyterlab-settings /root/.jupyter/lab/user-settings/@jupyterlab/extensionmanager-extension/
 RUN npm install --save-dev webpack
